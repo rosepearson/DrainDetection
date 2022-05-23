@@ -11,11 +11,11 @@
 			}
 		},
 		"processing": {
-			"chunk_size": 50,
+			"chunk_size": 75,
 			"number_of_cores": 3
 		},
 		"data_paths": {
-		  "local_cache": "C:/Users/pearsonra/Documents/data/drain_detection/catchments/leeston/",
+		  "local_cache": "C:/Users/pearsonra/Documents/data/drain_detection/catchments/ashburton/",
 		  "catchment_boundary": "catchment.geojson",
 		  "land":  "catchment.geojson",
 		  "dense_dem": "dense_10m_dem.nc",
@@ -23,7 +23,7 @@
 		},
 		"apis": {
 			"open_topography": {
-				"Chch_Selwn_2015": {
+				"NZ18_AmuriCant": {
 					"crs": {
 						"horizontal": 2193,
 						"vertical": 7839
@@ -32,7 +32,7 @@
 			}
 		},
 		"general": {
-			"lidar_classifications_to_keep": [2, 9, 11],
+			"lidar_classifications_to_keep": [2, 9],
 			"interpolation_method": "linear"
 		}
 	}
